@@ -2,9 +2,8 @@
     export let name = "";
     export let color = "slate";
 
-    $: classes = `bg-${color}-100 text-${color}-700 text-xs font-medium 
-        inline-flex items-center px-2.5 py-0.5 rounded me-2 
-        border border-${color}-500`;
+    $: classes = `text-${color}-400 text-xs font-medium 
+        inline-flex items-center pr-2.5 py-0.5 rounded-2xl me-2`;
 </script>
 
 <span class={classes}>
@@ -12,7 +11,7 @@
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        class="size-3 me-1.5"
+        class="size-4 me-1.5"
     >
         <path
             fill-rule="evenodd"

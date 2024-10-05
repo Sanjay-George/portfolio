@@ -91,9 +91,12 @@
         <div class="about-containers">
             <div class="details-container border rounded-3xl">
                 <h2
-                    class="text-xl md:text-3xl font-semibold mb-5 text-slate-300"
+                    class="text-xl md:text-3xl font-semibold mb-5 md:mb-10 text-slate-300"
                 >
-                    Dev
+                    <span
+                        class="text-transparent bg-clip-text bg-gradient-to-r
+                        from-slate-400 to-orange-300">Dev</span
+                    >
                 </h2>
                 <div class="article-container">
                     {#each dev as experience}
@@ -106,9 +109,12 @@
             </div>
             <div class="details-container border rounded-3xl">
                 <h2
-                    class="text-xl md:text-3xl font-semibold mb-5 text-slate-300"
+                    class="text-xl md:text-3xl font-semibold mb-5 md:mb-10 text-slate-300"
                 >
-                    Ops
+                    <span
+                        class="text-transparent bg-clip-text bg-gradient-to-r
+                        to-slate-400 from-orange-300">Ops</span
+                    >
                 </h2>
                 <div class="article-container">
                     {#each ops as experience}

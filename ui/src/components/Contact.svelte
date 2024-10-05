@@ -17,7 +17,9 @@
     </h1>
     <div class="contact-info-upper-container border rounded-3xl">
         <div class="contact-info-container">
-            <EmailIcon size={10} />
+            <a class="text-slate-500" href="mailto:sanjaygeorge16@gmail.com">
+                <EmailIcon size={10} /></a
+            >
             <p>
                 <a class="text-slate-500" href="mailto:sanjaygeorge16@gmail.com"
                     >sanjaygeorge16@gmail.com</a
@@ -25,10 +27,12 @@
             </p>
         </div>
         <div class="contact-info-container">
-            <LinkedInIcon size={10} />
+            <a target="_blank" href="https://www.linkedin.com/in/sanjay-george/"
+                ><LinkedInIcon size={10} /></a
+            >
             <p>
                 <a
-                    class="text-slate-500"
+                    class="text-slate-500 inline-flex items-center"
                     target="_blank"
                     href="https://www.linkedin.com/in/sanjay-george/"
                     >LinkedIn</a
