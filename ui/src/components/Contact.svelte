@@ -17,7 +17,7 @@
     </h1>
     <div class="contact-info-upper-container border rounded-3xl">
         <div class="contact-info-container">
-            <EmailIcon />
+            <EmailIcon size={10} />
             <p>
                 <a class="text-slate-500" href="mailto:sanjaygeorge16@gmail.com"
                     >sanjaygeorge16@gmail.com</a
@@ -25,7 +25,7 @@
             </p>
         </div>
         <div class="contact-info-container">
-            <LinkedInIcon />
+            <LinkedInIcon size={10} />
             <p>
                 <a
                     class="text-slate-500"
