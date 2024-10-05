@@ -3,6 +3,8 @@
     import GithubIcon from "../assets/github.png";
     import Github from "./icons/Github.svelte";
     import LinkedInIcon from "./icons/LinkedInIcon.svelte";
+    import DownloadIcon from "./icons/DownloadIcon.svelte";
+    import Resume from "../assets/resume-example.pdf";
 </script>
 
 <section id="profile" class="pt-20 xl:pt-28">
@@ -32,6 +34,15 @@
             >
             <a href="https://github.com/Sanjay-George" target="_blank">
                 <Github size={10} color="slate-400" /></a
+            >
+            <button
+                href="#"
+                on:click={() => {
+                    window.open(Resume);
+                }}
+                target="_blank"
+            >
+                <DownloadIcon size={10} color="slate-400" /></button
             >
         </div>
     </div>
