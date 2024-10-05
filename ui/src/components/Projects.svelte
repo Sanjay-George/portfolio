@@ -26,7 +26,11 @@
 
 <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
+    <h1
+        class="title md:mb-5 mt-0 text-3xl font-extrabold md:text-5xl lg:text-6xl text-slate-500"
+    >
+        Projects
+    </h1>
     <div class="experience-details-container">
         <div class="about-containers">
             {#each projects as project}

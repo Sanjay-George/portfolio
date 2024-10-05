@@ -48,10 +48,10 @@
         },
         {
             name: "Kubernetes",
-            level: "Basic",
+            level: "Test",
         },
         {
-            name: "AWS",
+            name: "Azure",
             level: "Basic",
         },
         {
@@ -79,7 +79,11 @@
 
 <section id="experience">
     <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Experience</h1>
+    <h1
+        class="title md:mb-5 mt-0 text-3xl font-extrabold md:text-5xl lg:text-6xl text-slate-500"
+    >
+        Experience
+    </h1>
     <div class="experience-details-container">
         <div class="about-containers">
             <div class="details-container">
