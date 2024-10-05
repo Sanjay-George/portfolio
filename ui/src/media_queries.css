@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1536px) {
     #profile {
         height: 83vh;
         margin-bottom: 6rem;
@@ -8,13 +8,10 @@
         flex-wrap: wrap;
     }
 
-    #contact,
-    #projects {
-        height: fit-content;
-    }
+
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
     #desktop-nav {
         display: none;
     }
@@ -55,9 +52,14 @@
     .about-containers {
         margin-top: 0;
     }
+
+    #contact,
+    #projects {
+        height: fit-content;
+    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
 
     #contact,
     footer {
@@ -124,4 +126,6 @@
     .text-container {
         text-align: justify;
     }
+
+
 }
