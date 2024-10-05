@@ -26,7 +26,7 @@
             > Software Engineer
         </p>
 
-        <div class="flex justify-center gap-2 mt-0">
+        <div class="flex justify-center gap-2 lg:mt-12">
             <a href="https://www.linkedin.com/in/sanjay-george/" target="_blank"
                 ><LinkedInIcon size={10} color="slate-400" /></a
             >

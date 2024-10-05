@@ -30,7 +30,8 @@
                 <a
                     class="text-slate-500"
                     target="_blank"
-                    href="https://www.linkedin.com">LinkedIn</a
+                    href="https://www.linkedin.com/in/sanjay-george/"
+                    >LinkedIn</a
                 >
             </p>
         </div>
