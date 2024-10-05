@@ -4,15 +4,27 @@
     import GithubIcon from "../assets/github.png";
 </script>
 
-<section id="profile">
+<section id="profile" class="xl:pt-28">
     <div class="section__pic-container">
         <img src={profilePic} alt="Profile picture" />
     </div>
-    <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">John Doe</h1>
-        <p class="section__text__p2">Frontend Developer</p>
-        <div class="btn-container">
+    <div class="section__text xl:pt-16">
+        <p class="section__text__p1 text-slate-400">Hello, I'm</p>
+        <h1
+            class="md:mb-5 mt-0 text-3xl font-extrabold md:text-5xl lg:text-6xl"
+        >
+            <span
+                class="text-transparent bg-clip-text bg-gradient-to-r to-slate-500 from-orange-400"
+                >Sanjay George</span
+            >
+        </h1>
+
+        <p class="section__text__p2 text-slate-400">
+            <span class="text-sm font-extralight hidden sm:inline">
+                and I'm a</span
+            > Software Engineer
+        </p>
+        <!-- <div class="btn-container pt-8 pb-1 text-sm">
             <button
                 class="btn btn-color-2"
                 onclick="window.open('./assets/resume-example.pdf')"
@@ -20,12 +32,12 @@
                 Download CV
             </button>
             <button
-                class="btn btn-color-1"
+                class="btn text-white bg-slate-600"
                 onclick="location.href='./#contact'"
             >
                 Contact Info
             </button>
-        </div>
+        </div> -->
         <div id="socials-container">
             <img
                 src={LinkedInIcon}
