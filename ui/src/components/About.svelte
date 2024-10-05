@@ -20,7 +20,7 @@
         About Me
     </h1>
 
-    <div class="container">
+    <div class="container lg:text-xl">
         <div class="my-10">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
             reprehenderit et laborum, rem, dolore eum quod voluptate
@@ -40,12 +40,13 @@
                         >January 2023</time
                     >
                     <h3
-                        class="text-lg font-semibold text-gray-900 dark:text-white"
+                        class="text-xl font-semibold text-gray-900 dark:text-white"
                     >
-                        Started working at newboxes GmbH
+                        Started at newboxes GmbH
                     </h3>
                     <p
-                        class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
+                        class="mb-4 text-base font-normal text-gray-500
+                         dark:text-gray-400"
                     >
                         Built serverless, event-driven solutions for a logistic
                         client. Engineered data pipelines and optimized data
@@ -129,9 +130,9 @@
                         >June 2018</time
                     >
                     <h3
-                        class="text-lg font-semibold text-gray-900 dark:text-white"
+                        class="text-xl font-semibold text-gray-900 dark:text-white"
                     >
-                        Started working at CarTrade Tech
+                        Started at CarTrade Tech
                     </h3>
                     <p
                         class="text-base mb-4 font-normal text-gray-500 dark:text-gray-400"
