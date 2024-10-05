@@ -4,14 +4,14 @@
     export let github = "";
 </script>
 
-<div class="details-container color-container">
+<div class="details-container border rounded-3xl w-4/6">
     <div class="article-container">
         <img src={icon} alt="Project 1" class="project-img" />
     </div>
     <h2 class="experience-sub-title project-title">{title}</h2>
     <div class="btn-container">
         <button
-            class="btn btn-color-2 project-btn"
+            class="btn border rounded-sm px-5 py-1"
             onclick="location.href='https://github.com/'"
         >
             Github

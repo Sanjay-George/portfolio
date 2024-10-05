@@ -8,24 +8,44 @@
     const projects = [
         {
             icon: Project1Icon,
-            title: "Project One",
+            title: "Product Management System",
             github: "",
         },
         {
             icon: Project2Icon,
-            title: "Project Two",
+            title: "Container Validation & Transportation Solution",
             github: "",
         },
         {
             icon: Project3Icon,
-            title: "Project Three",
+            title: "Document.io",
+            github: "",
+        },
+        {
+            icon: Project3Icon,
+            title: "Bikewale",
+            github: "",
+        },
+        {
+            icon: Project3Icon,
+            title: "Localize MSSQL",
+            github: "",
+        },
+        {
+            icon: Project3Icon,
+            title: "Web Automator",
             github: "",
         },
     ];
 </script>
 
 <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
+    <p class="section__text__p1 mb-1">
+        <span
+            class="text-transparent bg-clip-text bg-gradient-to-r to-slate-500 from-orange-400"
+            >Browse My Recent</span
+        >
+    </p>
     <h1
         class="title md:mb-5 mt-0 text-3xl font-extrabold md:text-5xl lg:text-6xl text-slate-500"
     >

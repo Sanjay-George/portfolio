@@ -1,10 +1,11 @@
 <script>
     import profilePic from "../assets/profile-pic.png";
-    import LinkedInIcon from "../assets/linkedin.png";
     import GithubIcon from "../assets/github.png";
+    import Github from "./icons/Github.svelte";
+    import LinkedInIcon from "./icons/LinkedInIcon.svelte";
 </script>
 
-<section id="profile" class="xl:pt-28">
+<section id="profile" class="pt-20 xl:pt-28">
     <div class="section__pic-container">
         <img src={profilePic} alt="Profile picture" />
     </div>
@@ -19,38 +20,19 @@
             >
         </h1>
 
-        <p class="section__text__p2 text-slate-400">
+        <p class="section__text__p2 text-slate-400 mb-1">
             <span class="text-sm font-extralight hidden sm:inline">
                 and I'm a</span
             > Software Engineer
         </p>
-        <!-- <div class="btn-container pt-8 pb-1 text-sm">
-            <button
-                class="btn btn-color-2"
-                onclick="window.open('./assets/resume-example.pdf')"
+
+        <div class="flex justify-center gap-2 mt-0">
+            <a href="https://www.linkedin.com/in/sanjay-george/" target="_blank"
+                ><LinkedInIcon size={10} color="slate-400" /></a
             >
-                Download CV
-            </button>
-            <button
-                class="btn text-white bg-slate-600"
-                onclick="location.href='./#contact'"
+            <a href="https://github.com/Sanjay-George" target="_blank">
+                <Github size={10} color="slate-400" /></a
             >
-                Contact Info
-            </button>
-        </div> -->
-        <div id="socials-container">
-            <img
-                src={LinkedInIcon}
-                alt="My LinkedIn profile"
-                class="icon"
-                onclick="location.href='https://linkedin.com/'"
-            />
-            <img
-                src={GithubIcon}
-                alt="My Github profile"
-                class="icon"
-                onclick="location.href='https://github.com/'"
-            />
         </div>
     </div>
 </section>

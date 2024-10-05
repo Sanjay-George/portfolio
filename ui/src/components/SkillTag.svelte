@@ -1,16 +1,18 @@
 <script>
     export let name = "";
-    export let level = "";
-    import CheckmarkIcon from "../assets/checkmark.png";
+    export let color = "slate";
+
+    $: classes = `bg-${color}-100 text-${color}-700 text-xs font-medium 
+        inline-flex items-center px-2.5 py-0.5 rounded me-2 
+        border border-${color}-500`;
 </script>
 
-<div class="flex">
-    <!-- <img src={CheckmarkIcon} alt="Skill icon" class="icon" /> -->
+<span class={classes}>
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        class="size-7 me-1.5 text-slate-600"
+        class="size-3 me-1.5"
     >
         <path
             fill-rule="evenodd"
@@ -18,10 +20,6 @@
             clip-rule="evenodd"
         />
     </svg>
-    <div>
-        <h3 class="text-lg sm:text-2xl font-bold text-slate-500 text-nowrap">
-            {name}
-        </h3>
-        <p class="xs:text-sm sm:text-md text-slate-400">{level}</p>
-    </div>
-</div>
+
+    {name}
+</span>

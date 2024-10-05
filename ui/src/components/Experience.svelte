@@ -51,13 +51,10 @@
             level: "Test",
         },
         {
-            name: "Azure",
-            level: "Basic",
-        },
-        {
             name: "Linux",
             level: "Intermediate",
         },
+
         {
             name: "Nginx",
             level: "Intermediate",
@@ -78,16 +75,26 @@
 </script>
 
 <section id="experience">
-    <p class="section__text__p1">Explore My</p>
+    <p class="section__text__p1 mb-1">
+        <span
+            class="text-transparent bg-clip-text bg-gradient-to-r to-slate-500 from-orange-400"
+            >Explore My</span
+        >
+    </p>
     <h1
-        class="title md:mb-5 mt-0 text-3xl font-extrabold md:text-5xl lg:text-6xl text-slate-500"
+        class="title md:mb-5 mt-0 text-3xl font-extrabold md:text-5xl lg:text-6xl
+         text-slate-500"
     >
         Experience
     </h1>
     <div class="experience-details-container">
         <div class="about-containers">
-            <div class="details-container">
-                <h2 class="experience-sub-title">Dev</h2>
+            <div class="details-container border rounded-3xl">
+                <h2
+                    class="text-xl md:text-3xl font-semibold mb-5 text-slate-300"
+                >
+                    Dev
+                </h2>
                 <div class="article-container">
                     {#each dev as experience}
                         <Skill
@@ -97,8 +104,12 @@
                     {/each}
                 </div>
             </div>
-            <div class="details-container">
-                <h2 class="experience-sub-title">Ops</h2>
+            <div class="details-container border rounded-3xl">
+                <h2
+                    class="text-xl md:text-3xl font-semibold mb-5 text-slate-300"
+                >
+                    Ops
+                </h2>
                 <div class="article-container">
                     {#each ops as experience}
                         <Skill
