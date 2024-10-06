@@ -1,5 +1,4 @@
 <script>
-    import ProjectCard from "./ProjectCard.svelte";
     import SkillTag from "./SkillTag.svelte";
     import ArrowIcon from "./icons/ArrowIcon.svelte";
     import Github from "./icons/Github.svelte";
@@ -64,7 +63,7 @@
         {#each projects as project}
             <div class="w-full xl:w-1/3 lg:w-1/2 px-4 py-4">
                 <div
-                    class="xl:min-h-[300px] lg:min-h-[280px] bg-white border border-gray-200 rounded-2xl"
+                    class="xl:min-h-[300px] lg:min-h-[280px] border border-gray-200 rounded-2xl"
                 >
                     <!-- <img
                         class="rounded-t-lg"
@@ -73,7 +72,7 @@
                     /> -->
                     <div class="px-7 py-5">
                         <h5
-                            class="mb-2 text-xl font-bold tracking-tight text-slate-700"
+                            class="mb-2 text-xl font-bold tracking-tight text-slate-700 dark:text-slate-200"
                         >
                             {project.title}
                         </h5>
@@ -86,7 +85,7 @@
                             {/each}
                         </div>
                         <p
-                            class="mb-3 font-normal text-slate-500 sm:text-xl pt-3"
+                            class="mb-3 font-normal text-slate-500 dark:text-slate-400 sm:text-xl pt-3"
                         >
                             {project.description}
                         </p>
@@ -100,17 +99,5 @@
             </div>
         {/each}
     </div>
-
-    <!-- <div class="experience-details-container">
-        <div class="about-containers">
-            {#each projects as project}
-                <ProjectCard
-                    icon={project.icon}
-                    title={project.title}
-                    github={project.github}
-                />
-            {/each}
-        </div>
-    </div> -->
     <ArrowIcon scrollTo="#contact" />
 </section>
