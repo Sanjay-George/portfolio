@@ -3,7 +3,7 @@
     import Github from "./icons/Github.svelte";
     import LinkedInIcon from "./icons/LinkedInIcon.svelte";
     import DownloadIcon from "./icons/DownloadIcon.svelte";
-    import Resume from "../assets/resume-example.pdf";
+    import Resume from "../assets/resume.pdf";
 </script>
 
 <section id="profile" class="pt-16 xl:pt-24">
