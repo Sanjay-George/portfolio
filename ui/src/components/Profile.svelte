@@ -21,7 +21,7 @@
         >
             <span
                 class="text-transparent bg-clip-text bg-gradient-to-r to-slate-500
-                 from-purple-400">Sanjay George</span
+                 from-purple-800">Sanjay George</span
             >
         </h1>
 
