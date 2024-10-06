@@ -12,9 +12,9 @@
         },
         {
             date: "April 2022",
-            title: "Moved to Germany for my Master degree",
+            title: "Moved to Germany for Master's",
             description:
-                "Started my Master degree in Applied Computer Science at Hochschule Fulda.",
+                "Started pursuing Master's in Applied Computer Science at Hochschule Fulda.",
         },
         {
             date: "October 2021",
