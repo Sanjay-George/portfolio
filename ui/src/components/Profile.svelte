@@ -42,11 +42,9 @@
                 <Github size={10} color="slate-400" /></a
             >
             <button
-                href="#"
                 on:click={() => {
                     window.open(Resume);
                 }}
-                target="_blank"
             >
                 <DownloadIcon size={10} color="slate-400" /></button
             >
