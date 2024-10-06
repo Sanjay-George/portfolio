@@ -5,6 +5,25 @@
         menu.classList.toggle("open");
         icon.classList.toggle("open");
     }
+
+    const items = [
+        {
+            name: "About",
+            link: "#about",
+        },
+        {
+            name: "Experience",
+            link: "#experience",
+        },
+        {
+            name: "Projects",
+            link: "#projects",
+        },
+        {
+            name: "Contact",
+            link: "#contact",
+        },
+    ];
 </script>
 
 <nav id="desktop-nav">
@@ -15,26 +34,15 @@
     </div>
     <div>
         <ul class="nav-links">
-            <li
-                class="text-slate-400 border-b-2 border-transparent hover:border-slate-400 transition-colors ease-in-out duration-300"
-            >
-                <a href="#about">About</a>
-            </li>
-            <li
-                class="text-slate-400 border-b-2 border-transparent hover:border-slate-400 transition-colors ease-in-out duration-300"
-            >
-                <a href="#experience">Experience</a>
-            </li>
-            <li
-                class="text-slate-400 border-b-2 border-transparent hover:border-slate-400 transition-colors ease-in-out duration-300"
-            >
-                <a href="#projects">Projects</a>
-            </li>
-            <li
-                class="text-slate-400 border-b-2 border-transparent hover:border-slate-400 transition-colors ease-in-out duration-300"
-            >
-                <a href="#contact">Contact</a>
-            </li>
+            {#each items as item}
+                <li
+                    class="text-slate-400
+                    border-b-2 border-transparent hover:border-slate-400
+                    transition-colors ease-in-out duration-300"
+                >
+                    <a href={item.link}>{item.name}</a>
+                </li>
+            {/each}
         </ul>
     </div>
 </nav>
@@ -51,26 +59,15 @@
             <span></span>
         </div>
         <div class="menu-links">
-            <li
-                class="text-slate-400 hover:border-b-2 hover:border-slate-400 transition-colors ease-in-out duration-300"
-            >
-                <a href="#about">About</a>
-            </li>
-            <li
-                class="text-slate-400 hover:border-b-2 hover:border-slate-400 transition-colors ease-in-out duration-300"
-            >
-                <a href="#experience">Experience</a>
-            </li>
-            <li
-                class="text-slate-400 hover:border-b-2 hover:border-slate-400 transition-colors ease-in-out duration-300"
-            >
-                <a href="#projects">Projects</a>
-            </li>
-            <li
-                class="text-slate-400 hover:border-b-2 hover:border-slate-400 transition-colors ease-in-out duration-300"
-            >
-                <a href="#contact">Contact</a>
-            </li>
+            {#each items as item}
+                <li
+                    class="text-slate-400
+                    hover:border-b-2 hover:border-slate-400
+                    transition-colors ease-in-out duration-300"
+                >
+                    <a href={item.link}>{item.name}</a>
+                </li>
+            {/each}
         </div>
     </div>
 </nav>
