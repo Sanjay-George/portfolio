@@ -12,13 +12,13 @@
     </p>
     <h1
         class="title sm:mb-7 mt-0 text-3xl font-extrabold
-        md:text-5xl lg:text-6xl text-slate-500"
+        md:text-5xl lg:text-6xl text-slate-500 dark:text-slate-200"
     >
         About Me
     </h1>
 
     <div class="container lg:text-xl sm:border sm:rounded-3xl sm:px-16">
-        <div class="my-5 sm:my-10 text-slate-500">
+        <div class="my-5 sm:my-10 text-slate-500 dark:text-slate-200">
             Experienced Software Engineer with over 5 years of expertise in
             building scalable, data-driven solutions. Adept at collaborating in
             agile, cross-functional teams to deliver sustainable and optimized
@@ -32,11 +32,11 @@
                         border border-white"
                     ></div>
                     <time
-                        class="text-xs font-extralight leading-none text-slate-700"
+                        class="text-xs font-extralight leading-none dark:text-slate-50"
                         >January 2023</time
                     >
                     <h3
-                        class="text-xl font-semibold text-slate-900 dark:text-white"
+                        class="text-xl font-semibold text-slate-900 dark:text-slate-100"
                     >
                         Started at newboxes GmbH
                     </h3>
@@ -64,11 +64,11 @@
                         border border-white"
                     ></div>
                     <time
-                        class="text-xs font-extralight leading-none text-slate-700"
+                        class="text-xs font-extralight leading-none dark:text-slate-50 dark:text-slate-50"
                         >April 2022</time
                     >
                     <h3
-                        class="text-xl font-semibold text-slate-900 dark:text-white"
+                        class="text-xl font-semibold text-slate-900 dark:text-slate-100"
                     >
                         Moved to Germany and started my Masters
                     </h3>
@@ -85,11 +85,11 @@
                         class="absolute w-3 h-3 bg-slate-200 rounded-full mt-1.5 -start-1.5 border border-white"
                     ></div>
                     <time
-                        class="text-xs font-extralight leading-none text-slate-700"
+                        class="text-xs font-extralight leading-none dark:text-slate-50"
                         >October 2021</time
                     >
                     <h3
-                        class="text-xl font-semibold text-slate-900 dark:text-white"
+                        class="text-xl font-semibold text-slate-900 dark:text-slate-100"
                     >
                         Team Lead (Bikes division)
                     </h3>
@@ -105,10 +105,12 @@
                         class="absolute w-3 h-3 bg-slate-200 rounded-full mt-1.5 -start-1.5 border border-white"
                     ></div>
                     <time
-                        class="text-xs font-extralight leading-none text-slate-700"
+                        class="text-xs font-extralight leading-none dark:text-slate-50"
                         >March 2021</time
                     >
-                    <h3 class="text-xl font-semibold text-slate-900">
+                    <h3
+                        class="text-xl font-semibold text-slate-900 dark:text-slate-100"
+                    >
                         Team Lead (Used Cars Team)
                     </h3>
                     <p
@@ -124,11 +126,11 @@
                         class="absolute w-3 h-3 bg-slate-200 rounded-full mt-1.5 -start-1.5 border border-white"
                     ></div>
                     <time
-                        class="text-xs font-extralight leading-none text-slate-700"
+                        class="text-xs font-extralight leading-none dark:text-slate-50"
                         >June 2018</time
                     >
                     <h3
-                        class="text-xl font-semibold text-slate-900 dark:text-white"
+                        class="text-xl font-semibold text-slate-900 dark:text-slate-100"
                     >
                         Started at CarTrade Tech
                     </h3>
