@@ -7,11 +7,12 @@
     <p class="section__text__p1">
         <span
             class="text-transparent bg-clip-text bg-gradient-to-r to-slate-500
-            from-purple-600">Get in Touch</span
+            from-purple-600 dark:to-slate-300">Get in Touch</span
         >
     </p>
     <h1
-        class="title md:mb-5 mt-0 text-3xl font-extrabold md:text-5xl lg:text-6xl text-slate-500"
+        class="title md:mb-5 mt-0 text-3xl font-extrabold md:text-5xl lg:text-6xl
+        text-slate-500 dark:text-slate-200"
     >
         Contact Me
     </h1>

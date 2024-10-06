@@ -7,7 +7,7 @@
     <p class="section__text__p1 mb-1">
         <span
             class="text-transparent bg-clip-text bg-gradient-to-r to-slate-500
-            from-purple-600">Get To Know More</span
+            from-purple-600 dark:to-slate-300">Get To Know More</span
         >
     </p>
     <h1

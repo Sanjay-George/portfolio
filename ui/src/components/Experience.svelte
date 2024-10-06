@@ -78,12 +78,12 @@
     <p class="section__text__p1 mb-1">
         <span
             class="text-transparent bg-clip-text bg-gradient-to-r to-slate-500
-            from-purple-600">Explore My</span
+            from-purple-600 dark:to-slate-300">Explore My</span
         >
     </p>
     <h1
         class="title md:mb-5 mt-0 text-3xl font-extrabold md:text-5xl lg:text-6xl
-         text-slate-500"
+         text-slate-500 dark:text-slate-200"
     >
         Experience
     </h1>

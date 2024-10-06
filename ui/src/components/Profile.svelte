@@ -23,7 +23,7 @@
         >
             <span
                 class="text-transparent bg-clip-text bg-gradient-to-r
-                to-slate-500 from-purple-800 dark:to-slate-300 dark:from-purple-800
+                to-slate-500 from-purple-800 dark:to-slate-300
                 ">Sanjay George</span
             >
         </h1>
