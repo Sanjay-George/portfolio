@@ -77,8 +77,8 @@
 <section id="experience">
     <p class="section__text__p1 mb-1">
         <span
-            class="text-transparent bg-clip-text bg-gradient-to-r to-slate-500 from-orange-400"
-            >Explore My</span
+            class="text-transparent bg-clip-text bg-gradient-to-r to-slate-500
+            from-purple-600">Explore My</span
         >
     </p>
     <h1
@@ -95,7 +95,7 @@
                 >
                     <span
                         class="text-transparent bg-clip-text bg-gradient-to-r
-                        from-slate-400 to-orange-300">Dev</span
+                        from-slate-400 to-purple-300">Dev</span
                     >
                 </h2>
                 <div class="article-container">
@@ -113,7 +113,7 @@
                 >
                     <span
                         class="text-transparent bg-clip-text bg-gradient-to-r
-                        to-slate-400 from-orange-300">Ops</span
+                        to-slate-400 from-purple-300">Ops</span
                     >
                 </h2>
                 <div class="article-container">

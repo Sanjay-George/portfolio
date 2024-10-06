@@ -1,7 +1,4 @@
 <script>
-    import ProfilePic from "../assets/about-pic.png";
-    import ExperienceIcon from "../assets/experience.png";
-    import EducationIcon from "../assets/education.png";
     import ArrowIcon from "./icons/ArrowIcon.svelte";
     import SkillTag from "./SkillTag.svelte";
 </script>
@@ -9,19 +6,19 @@
 <section id="about" class="h-fit lg:mb-20">
     <p class="section__text__p1 mb-1">
         <span
-            class="text-transparent bg-clip-text bg-gradient-to-r to-slate-500 from-orange-400"
-            >Get To Know More</span
+            class="text-transparent bg-clip-text bg-gradient-to-r to-slate-500
+            from-purple-600">Get To Know More</span
         >
     </p>
     <h1
-        class="title md:mb-7 mt-0 text-3xl font-extrabold
+        class="title sm:mb-7 mt-0 text-3xl font-extrabold
         md:text-5xl lg:text-6xl text-slate-500"
     >
         About Me
     </h1>
 
     <div class="container lg:text-xl sm:border sm:rounded-3xl sm:px-16">
-        <div class="my-10 text-slate-400">
+        <div class="my-5 sm:my-10 text-slate-500">
             Experienced Software Engineer with over 5 years of expertise in
             building scalable, data-driven solutions. Adept at collaborating in
             agile, cross-functional teams to deliver sustainable and optimized
@@ -44,8 +41,8 @@
                         Started at newboxes GmbH
                     </h3>
                     <p
-                        class="mb-1 mt-3 text-xl font-normal text-slate-400
-                         dark:text-slate-400"
+                        class="mb-1 mt-3 sm:text-xl font-normal text-slate-400
+                         hover:text-slate-500 transition-colors ease-in-out duration-300"
                     >
                         Built serverless, event-driven solutions for a logistic
                         client. Engineered data pipelines and optimized data
@@ -54,11 +51,11 @@
                     </p>
 
                     <div>
-                        <SkillTag color="orange" name="Node.js" />
+                        <SkillTag color="purple" name="Node.js" />
                         <SkillTag color="slate" name="SQL Server" />
-                        <SkillTag color="orange" name="Azure" />
+                        <SkillTag color="purple" name="Azure" />
                         <SkillTag color="slate" name="GH Actions" />
-                        <SkillTag color="orange" name="Svelte" />
+                        <SkillTag color="purple" name="Svelte" />
                     </div>
                 </li>
                 <li class="mb-6 ml-10 ms-4">
@@ -75,7 +72,10 @@
                     >
                         Moved to Germany and started my Masters
                     </h3>
-                    <p class="text-xl font-normal text-slate-400">
+                    <p
+                        class="sm:text-xl font-normal text-slate-400 hover:text-slate-500
+                        transition-colors ease-in-out duration-300"
+                    >
                         Started my Masters in Applied Computer Science at
                         Hochschule Fulda.
                     </p>
@@ -94,7 +94,8 @@
                         Team Lead (Bikes division)
                     </h3>
                     <p
-                        class="text-xl font-normal text-slate-400 dark:text-slate-400"
+                        class="sm:text-xl font-normal text-slate-400
+                        hover:text-slate-500 transition-colors ease-in-out duration-300"
                     >
                         Started leading both teams of the bikes division.
                     </p>
@@ -108,9 +109,12 @@
                         >March 2021</time
                     >
                     <h3 class="text-xl font-semibold text-slate-900">
-                        Team Lead (Used Cars Team, CarTrade)
+                        Team Lead (Used Cars Team)
                     </h3>
-                    <p class="text-xl font-normal text-slate-400">
+                    <p
+                        class="sm:text-xl font-normal text-slate-400
+                            hover:text-slate-500 transition-colors ease-in-out duration-300"
+                    >
                         Led the launch of a new product line for used cars at
                         CarTrade Tech.
                     </p>
@@ -129,16 +133,17 @@
                         Started at CarTrade Tech
                     </h3>
                     <p
-                        class="text-xl mt-3 mb-1 font-normal text-slate-400 dark:text-slate-400"
+                        class="sm:text-xl mt-3 mb-1 font-normal text-slate-400
+                        hover:text-slate-500 transition-colors ease-in-out duration-300"
                     >
                         Started working as SDE1 at CarTrade Tech in the bikes
                         monetization team.
                     </p>
                     <div>
                         <SkillTag color="slate" name=".NET C#" />
-                        <SkillTag color="orange" name="React" />
+                        <SkillTag color="purple" name="React" />
                         <SkillTag color="slate" name="MySQL" />
-                        <SkillTag color="orange" name="Docker" />
+                        <SkillTag color="purple" name="Docker" />
                         <SkillTag color="slate" name="K8s" />
                     </div>
                 </li>

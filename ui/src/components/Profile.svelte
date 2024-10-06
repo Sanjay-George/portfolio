@@ -1,24 +1,27 @@
 <script>
-    import profilePic from "../assets/profile-pic.png";
-    import GithubIcon from "../assets/github.png";
+    import profilePic from "../assets/profile.png";
     import Github from "./icons/Github.svelte";
     import LinkedInIcon from "./icons/LinkedInIcon.svelte";
     import DownloadIcon from "./icons/DownloadIcon.svelte";
     import Resume from "../assets/resume-example.pdf";
 </script>
 
-<section id="profile" class="pt-20 xl:pt-28">
+<section id="profile" class="pt-16 xl:pt-24">
     <div class="section__pic-container">
-        <img src={profilePic} alt="Profile picture" />
+        <img
+            src={profilePic}
+            alt="Profile picture"
+            class="border rounded-full xl:h-80"
+        />
     </div>
     <div class="section__text xl:pt-16">
         <p class="section__text__p1 text-slate-400">Hello, I'm</p>
         <h1
-            class="md:mb-5 mt-0 text-3xl font-extrabold md:text-5xl lg:text-6xl"
+            class="md:mb-5 mb-2 text-3xl font-extrabold md:text-5xl lg:text-6xl"
         >
             <span
-                class="text-transparent bg-clip-text bg-gradient-to-r to-slate-500 from-orange-400"
-                >Sanjay George</span
+                class="text-transparent bg-clip-text bg-gradient-to-r to-slate-500
+                 from-purple-400">Sanjay George</span
             >
         </h1>
 

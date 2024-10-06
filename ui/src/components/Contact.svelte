@@ -6,8 +6,8 @@
 <section id="contact">
     <p class="section__text__p1">
         <span
-            class="text-transparent bg-clip-text bg-gradient-to-r to-slate-500 from-orange-400"
-            >Get in Touch</span
+            class="text-transparent bg-clip-text bg-gradient-to-r to-slate-500
+            from-purple-600">Get in Touch</span
         >
     </p>
     <h1

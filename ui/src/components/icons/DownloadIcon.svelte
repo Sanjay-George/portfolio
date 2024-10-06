@@ -3,7 +3,7 @@
     export let color = "gray-800";
 
     $: classes = `size-${size} text-${color} border p-2 rounded-full 
-    transition-colors ease-in-out duration-300 hover:text-orange-400`;
+    transition-colors ease-in-out duration-300 hover:text-purple-500`;
 </script>
 
 <svg
