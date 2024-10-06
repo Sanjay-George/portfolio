@@ -17,7 +17,7 @@
         About Me
     </h1>
 
-    <div class="container lg:text-xl sm:border sm:rounded-3xl sm:px-16">
+    <div class="lg:text-xl sm:border sm:rounded-3xl sm:px-16">
         <div class="my-5 sm:my-10 text-slate-500 dark:text-slate-200">
             Experienced Software Engineer with over 5 years of expertise in
             building scalable, data-driven solutions. Adept at collaborating in
