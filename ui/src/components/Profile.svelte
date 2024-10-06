@@ -15,17 +15,20 @@
         />
     </div>
     <div class="section__text xl:pt-16">
-        <p class="section__text__p1 text-slate-400">Hello, I'm</p>
+        <p class="section__text__p1 text-slate-400 dark:text-slate-300">
+            Hello, I'm
+        </p>
         <h1
             class="md:mb-5 mb-2 text-3xl font-extrabold md:text-5xl lg:text-6xl"
         >
             <span
-                class="text-transparent bg-clip-text bg-gradient-to-r to-slate-500
-                 from-purple-800">Sanjay George</span
+                class="text-transparent bg-clip-text bg-gradient-to-r
+                to-slate-500 from-purple-800 dark:to-slate-300 dark:from-purple-800
+                ">Sanjay George</span
             >
         </h1>
 
-        <p class="section__text__p2 text-slate-400 mb-1">
+        <p class="section__text__p2 text-slate-400 dark:text-slate-300 mb-1">
             <span class="text-sm font-extralight hidden sm:inline">
                 and I'm a</span
             > Software Engineer
