@@ -54,9 +54,9 @@
     </div>
     <div class="hamburger-menu">
         <div class="hamburger-icon" on:click={toggleMenu}>
-            <span></span>
-            <span></span>
-            <span></span>
+            <span class="bg-slate-700 dark:bg-slate-300"></span>
+            <span class="bg-slate-700 dark:bg-slate-300"></span>
+            <span class="bg-black dark:bg-white"></span>
         </div>
         <div class="menu-links">
             {#each items as item}

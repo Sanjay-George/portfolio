@@ -1,6 +1,41 @@
 <script>
     import ArrowIcon from "./icons/ArrowIcon.svelte";
     import SkillTag from "./SkillTag.svelte";
+
+    const about = [
+        {
+            date: "January 2023",
+            title: "Started at newboxes GmbH",
+            description:
+                "Built serverless, event-driven solutions for a logistics client. Engineered data pipelines and optimized data access. Currently working on an internal platform at Rolls Royce to improve production efficiency.",
+            skills: ["Node.js", "SQL Server", "Azure", "GH Actions", "Svelte"],
+        },
+        {
+            date: "April 2022",
+            title: "Moved to Germany for my Master degree",
+            description:
+                "Started my Master degree in Applied Computer Science at Hochschule Fulda.",
+        },
+        {
+            date: "October 2021",
+            title: "Team Lead (Bikes division)",
+            description:
+                "Started leading both teams of the bikes division. Led monolithic to microservices migration and React migration on critical pages, ensuring no downtime.",
+        },
+        {
+            date: "March 2021",
+            title: "Team Lead (Used Cars Team)",
+            description:
+                "Led the launch of a new product line for used cars in India.",
+        },
+        {
+            date: "June 2018",
+            title: "Started at CarTrade Tech",
+            description:
+                "Started working as SDE1 at CarTrade Tech in the bikes monetization team. Worked on dealer and consumer facing features, while also SEO optimizing the platform.",
+            skills: [".NET C#", "React", "MySQL", "Docker", "K8s"],
+        },
+    ];
 </script>
 
 <section id="about" class="h-fit lg:mb-20">
@@ -17,7 +52,7 @@
         About Me
     </h1>
 
-    <div class="lg:text-xl sm:border sm:rounded-3xl sm:px-16">
+    <div class="text-xl sm:border sm:rounded-3xl sm:px-16">
         <div class="my-5 sm:my-10 text-slate-500 dark:text-slate-200">
             Experienced Software Engineer with over 5 years of expertise in
             building scalable, data-driven solutions. Adept at collaborating in
@@ -26,129 +61,40 @@
         </div>
         <div>
             <ol class="relative border-s border-slate-200">
-                <li class="mb-6 ml-10 ms-4">
-                    <div
-                        class="absolute w-3 h-3 bg-slate-200 rounded-full mt-1.5 -start-1.5
-                        border border-white"
-                    ></div>
-                    <time
-                        class="text-xs font-extralight leading-none dark:text-slate-50"
-                        >January 2023</time
-                    >
-                    <h3
-                        class="text-xl font-semibold text-slate-900 dark:text-slate-100"
-                    >
-                        Started at newboxes GmbH
-                    </h3>
-                    <p
-                        class="mb-1 mt-3 sm:text-xl font-normal text-slate-400
-                         hover:text-slate-500 transition-colors ease-in-out duration-300"
-                    >
-                        Built serverless, event-driven solutions for a logistic
-                        client. Engineered data pipelines and optimized data
-                        access. Currently working on an internal tool at Rolls
-                        Royce to improve production efficiency.
-                    </p>
-
-                    <div>
-                        <SkillTag color="purple" name="Node.js" />
-                        <SkillTag color="slate" name="SQL Server" />
-                        <SkillTag color="purple" name="Azure" />
-                        <SkillTag color="slate" name="GH Actions" />
-                        <SkillTag color="purple" name="Svelte" />
-                    </div>
-                </li>
-                <li class="mb-6 ml-10 ms-4">
-                    <div
-                        class="absolute w-3 h-3 bg-slate-200 rounded-full mt-1.5 -start-1.5
-                        border border-white"
-                    ></div>
-                    <time
-                        class="text-xs font-extralight leading-none dark:text-slate-50 dark:text-slate-50"
-                        >April 2022</time
-                    >
-                    <h3
-                        class="text-xl font-semibold text-slate-900 dark:text-slate-100"
-                    >
-                        Moved to Germany and started my Masters
-                    </h3>
-                    <p
-                        class="sm:text-xl font-normal text-slate-400 hover:text-slate-500
-                        transition-colors ease-in-out duration-300"
-                    >
-                        Started my Masters in Applied Computer Science at
-                        Hochschule Fulda.
-                    </p>
-                </li>
-                <li class="mb-6 ml-10 ms-4">
-                    <div
-                        class="absolute w-3 h-3 bg-slate-200 rounded-full mt-1.5 -start-1.5 border border-white"
-                    ></div>
-                    <time
-                        class="text-xs font-extralight leading-none dark:text-slate-50"
-                        >October 2021</time
-                    >
-                    <h3
-                        class="text-xl font-semibold text-slate-900 dark:text-slate-100"
-                    >
-                        Team Lead (Bikes division)
-                    </h3>
-                    <p
-                        class="sm:text-xl font-normal text-slate-400
-                        hover:text-slate-500 transition-colors ease-in-out duration-300"
-                    >
-                        Started leading both teams of the bikes division.
-                    </p>
-                </li>
-                <li class="mb-6 ml-10 ms-4">
-                    <div
-                        class="absolute w-3 h-3 bg-slate-200 rounded-full mt-1.5 -start-1.5 border border-white"
-                    ></div>
-                    <time
-                        class="text-xs font-extralight leading-none dark:text-slate-50"
-                        >March 2021</time
-                    >
-                    <h3
-                        class="text-xl font-semibold text-slate-900 dark:text-slate-100"
-                    >
-                        Team Lead (Used Cars Team)
-                    </h3>
-                    <p
-                        class="sm:text-xl font-normal text-slate-400
+                {#each about as item}
+                    <li class="mb-6 ml-10 ms-4">
+                        <div
+                            class="absolute w-3 h-3 bg-slate-200 rounded-full mt-1.5 -start-1.5
+                            border border-white"
+                        ></div>
+                        <time
+                            class="text-xs font-extralight leading-none dark:text-slate-50"
+                            >{item.date}</time
+                        >
+                        <h3
+                            class="text-xl font-semibold text-slate-900 dark:text-slate-100"
+                        >
+                            {item.title}
+                        </h3>
+                        <p
+                            class="mb-1 mt-3 sm:text-xl font-normal text-slate-400
                             hover:text-slate-500 transition-colors ease-in-out duration-300"
-                    >
-                        Led the launch of a new product line for used cars at
-                        CarTrade Tech.
-                    </p>
-                </li>
-                <li class="mb-10 ml-10 ms-4">
-                    <div
-                        class="absolute w-3 h-3 bg-slate-200 rounded-full mt-1.5 -start-1.5 border border-white"
-                    ></div>
-                    <time
-                        class="text-xs font-extralight leading-none dark:text-slate-50"
-                        >June 2018</time
-                    >
-                    <h3
-                        class="text-xl font-semibold text-slate-900 dark:text-slate-100"
-                    >
-                        Started at CarTrade Tech
-                    </h3>
-                    <p
-                        class="sm:text-xl mt-3 mb-1 font-normal text-slate-400
-                        hover:text-slate-500 transition-colors ease-in-out duration-300"
-                    >
-                        Started working as SDE1 at CarTrade Tech in the bikes
-                        monetization team.
-                    </p>
-                    <div>
-                        <SkillTag color="slate" name=".NET C#" />
-                        <SkillTag color="purple" name="React" />
-                        <SkillTag color="slate" name="MySQL" />
-                        <SkillTag color="purple" name="Docker" />
-                        <SkillTag color="slate" name="K8s" />
-                    </div>
-                </li>
+                        >
+                            {item.description}
+                        </p>
+
+                        <div>
+                            {#if item.skills}
+                                {#each item.skills as skill, i}
+                                    <SkillTag
+                                        color={i % 2 !== 0 ? "purple" : "slate"}
+                                        name={skill}
+                                    />
+                                {/each}
+                            {/if}
+                        </div>
+                    </li>
+                {/each}
             </ol>
         </div>
     </div>

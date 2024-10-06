@@ -1,6 +1,5 @@
 <script>
     export let name = "";
-    export let level = "";
 </script>
 
 <div class="flex">
@@ -9,7 +8,7 @@
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        class="size-7 me-1.5 text-slate-600 dark:text-slate-400"
+        class="size-7 me-1.5 text-slate-500 dark:text-slate-400"
     >
         <path
             fill-rule="evenodd"
@@ -19,10 +18,10 @@
     </svg>
     <div>
         <h3
-            class="text-lg sm:text-2xl font-bold text-slate-500 dark:text-slate-200 text-nowrap"
+            class="text-lg sm:text-2xl font-bold text-slate-400 dark:text-slate-300 text-nowrap"
         >
             {name}
         </h3>
-        <p class="xs:text-sm sm:text-md text-slate-400">{level}</p>
+        <!-- <p class="xs:text-sm sm:text-md text-slate-400">{level}</p> -->
     </div>
 </div>

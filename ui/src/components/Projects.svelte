@@ -5,7 +5,7 @@
 
     const projects = [
         {
-            title: "Rolls Royce Product Steering Tool",
+            title: "Rolls Royce Product Steering Platform",
             description:
                 "A tool to improve production efficiency at Rolls Royce.",
             scope: "work",
@@ -15,7 +15,7 @@
         {
             title: "Container Transportation Solution",
             description:
-                "A solution to optimize container validation and transportation built for a logistics client.",
+                "A solution to optimize container validation and transportation for a logistics SME.",
             scope: "work",
             github: null,
             skills: [
@@ -38,7 +38,7 @@
         {
             title: "Localize MSSQL",
             description:
-                "A docker-based solution to run local MSSQL instances with automated creation of schemas and tables, and population of data from CSV files",
+                "A docker-based solution to run local SQL Server instances with automated creation of schemas and tables, and population of data from CSV files",
             scope: "personal",
             github: "https://github.com/Sanjay-George/localize-mssql",
             skills: ["Docker", "MSSQL", "Node.js"],
@@ -63,7 +63,7 @@
 
     <div class="flex flex-wrap gap-0 justify-center items-center">
         {#each projects as project}
-            <div class="w-full xl:w-1/3 lg:w-1/2 px-4 py-4">
+            <div class="w-full xl:w-1/3 lg:w-1/2 lg:px-4 py-4">
                 <div
                     class="xl:min-h-[300px] lg:min-h-[280px] border border-gray-200 rounded-2xl"
                 >

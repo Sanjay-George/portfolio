@@ -3,74 +3,26 @@
     import ArrowIcon from "./icons/ArrowIcon.svelte";
 
     const dev = [
-        {
-            name: "HTML",
-            level: "Experienced",
-        },
-        {
-            name: "CSS",
-            level: "Experienced",
-        },
-        {
-            name: "JavaScript",
-            level: "Experienced",
-        },
-        {
-            name: "React JS",
-            level: "Intermediate",
-        },
-        {
-            name: "Svelte",
-            level: "Intermediate",
-        },
-        {
-            name: "PostgreSQL",
-            level: "Basic",
-        },
-        {
-            name: "Node JS",
-            level: "Intermediate",
-        },
-        {
-            name: "Express JS",
-            level: "Intermediate",
-        },
-        {
-            name: "Git",
-            level: "Intermediate",
-        },
+        "Node.js",
+        ".NET C#",
+        "React",
+        "Svelte",
+        "SQL",
+        "MongoDB",
+        "Jest",
+        "XUnit",
+        "Cypress",
+        "Puppeteer",
     ];
 
     const ops = [
-        {
-            name: "Docker",
-            level: "Intermediate",
-        },
-        {
-            name: "Kubernetes",
-            level: "Test",
-        },
-        {
-            name: "Linux",
-            level: "Intermediate",
-        },
-
-        {
-            name: "Nginx",
-            level: "Intermediate",
-        },
-        {
-            name: "Jenkins",
-            level: "Basic",
-        },
-        {
-            name: "Ansible",
-            level: "Basic",
-        },
-        {
-            name: "Terraform",
-            level: "Basic",
-        },
+        "Docker",
+        "K8s",
+        "Azure",
+        "AWS",
+        "GitHub Actions",
+        "Terraform",
+        "Ansible",
     ];
 </script>
 
@@ -100,10 +52,7 @@
                 </h2>
                 <div class="article-container">
                     {#each dev as experience}
-                        <Skill
-                            name={experience.name}
-                            level={experience.level}
-                        />
+                        <Skill name={experience} />
                     {/each}
                 </div>
             </div>
@@ -118,10 +67,7 @@
                 </h2>
                 <div class="article-container">
                     {#each ops as experience}
-                        <Skill
-                            name={experience.name}
-                            level={experience.level}
-                        />
+                        <Skill name={experience} />
                     {/each}
                 </div>
             </div>
