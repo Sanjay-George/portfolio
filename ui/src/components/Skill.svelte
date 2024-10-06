@@ -1,7 +1,6 @@
 <script>
     export let name = "";
     export let level = "";
-    import CheckmarkIcon from "../assets/checkmark.png";
 </script>
 
 <div class="flex">
