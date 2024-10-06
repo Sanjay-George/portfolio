@@ -1,3 +1,12 @@
+<script>
+    function toggleMenu() {
+        const menu = document.querySelector(".menu-links");
+        const icon = document.querySelector(".hamburger-icon");
+        menu.classList.toggle("open");
+        icon.classList.toggle("open");
+    }
+</script>
+
 <nav id="desktop-nav">
     <div
         class="logo text-slate-400 border-solid border-b-2 border-slate-400 px-0 py-0"
@@ -36,7 +45,7 @@
         S. GEORGE
     </div>
     <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
+        <div class="hamburger-icon" on:click={toggleMenu}>
             <span></span>
             <span></span>
             <span></span>
