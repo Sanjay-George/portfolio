@@ -2,7 +2,7 @@
     export let name = "";
     export let color = "slate";
 
-    $: classes = `text-${color}-400 text-xs font-medium 
+    $: classes = `text-${color}-500 text-xs font-medium 
         inline-flex items-center pr-2.5 py-0.5 rounded-2xl me-2`;
 </script>
 

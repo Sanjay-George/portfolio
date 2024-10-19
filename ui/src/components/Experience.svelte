@@ -47,7 +47,7 @@
                 >
                     <span
                         class="text-transparent bg-clip-text bg-gradient-to-r
-                        from-slate-400 to-purple-300">Dev</span
+                        from-slate-400 to-purple-400">Dev</span
                     >
                 </h2>
                 <div class="article-container">
@@ -62,7 +62,7 @@
                 >
                     <span
                         class="text-transparent bg-clip-text bg-gradient-to-r
-                        to-slate-400 from-purple-300">Ops</span
+                        to-slate-400 from-purple-400">Ops</span
                     >
                 </h2>
                 <div class="article-container">
