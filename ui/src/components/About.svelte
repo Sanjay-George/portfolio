@@ -60,10 +60,11 @@
 
     <div class="text-xl sm:border sm:rounded-3xl sm:px-16">
         <div class="my-5 sm:my-10 text-slate-500 dark:text-slate-200">
-            Experienced Software Engineer with over 5 years of expertise in
-            building scalable, data-driven solutions. Adept at collaborating in
-            agile, cross-functional teams to deliver sustainable and optimized
-            products.
+            Software Engineer with 5+ years of experience delivering scalable,
+            data-driven solutions. Skilled in understanding business goals,
+            collaborating with cross-functional teams, and holistically
+            engineering products that drive business success and customer
+            satisfaction.
         </div>
         <div>
             <ol class="relative border-s border-slate-200">
