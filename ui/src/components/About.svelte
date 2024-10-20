@@ -5,35 +5,41 @@
     const about = [
         {
             date: "January 2023",
-            title: "Started at newboxes GmbH",
+            title: "Software Engineer at Newboxes GmbH",
             description:
-                "Built serverless, event-driven solutions for a logistics client. Engineered data pipelines and optimized data access. Currently working on an internal platform at Rolls Royce to improve production efficiency.",
-            skills: ["Node.js", "SQL Server", "Azure", "GH Actions", "Svelte"],
+                "Developed event-driven logistics solutions, cutting delays by 53%. Built container validation systems, reducing manual processes by 80%. Enhanced CI/CD efficiency, reducing release cycles by 35%.",
+            skills: [
+                "Node.js",
+                "SQL Server",
+                "Azure",
+                "GitHub Actions",
+                "Svelte",
+            ],
         },
         {
             date: "April 2022",
             title: "Moved to Germany for Master's",
             description:
-                "Started pursuing Master's in Applied Computer Science at Hochschule Fulda.",
+                "Started pursuing Master's in Applied Computer Science at Hochschule Fulda, focusing on cloud computing, data engineering, and software optimization.",
         },
         {
             date: "October 2021",
-            title: "Team Lead (Bikes division)",
+            title: "Team Lead (Bikes Division) at CarTrade Tech",
             description:
-                "Started leading both teams of the bikes division. Led monolithic to microservices migration and React migration on critical pages, ensuring no downtime.",
+                "Led migration to microservices and React, ensuring zero downtime. Improved system reliability by 80% and optimized key features for better monetization.",
         },
         {
             date: "March 2021",
-            title: "Team Lead (Used Cars Team)",
+            title: "Team Lead (Used Cars Team) at CarTrade Tech",
             description:
-                "Led the launch of a new product line for used cars in India.",
+                "Launched a new used cars product line, boosting revenue streams. Ensured smooth integration with the platform, maintaining high code quality.",
         },
         {
             date: "June 2018",
-            title: "Started at CarTrade Tech",
+            title: "Software Engineer at CarTrade Tech",
             description:
-                "Started working as SDE1 at CarTrade Tech in the bikes monetization team. Worked on dealer and consumer facing features, while also SEO optimizing the platform.",
-            skills: [".NET C#", "React", "MySQL", "Docker", "K8s"],
+                "Engineered SEO-optimized features for high-traffic pages. Developed consumer and dealer-facing solutions, improving user engagement and sales.",
+            skills: [".NET C#", "React", "MySQL", "Docker", "Kubernetes"],
         },
     ];
 </script>

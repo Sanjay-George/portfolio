@@ -7,10 +7,10 @@
         {
             title: "Rolls Royce Product Steering Platform",
             description:
-                "A tool to improve production efficiency at Rolls Royce.",
+                "A comprehensive solution to improve production efficiency at Rolls Royce.",
             scope: "work",
             github: null,
-            skills: ["PHP", "Svelte", "MySQL"],
+            skills: ["PHP", "Vue", "MySQL"],
         },
         {
             title: "Container Transportation Solution",
